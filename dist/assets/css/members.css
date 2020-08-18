@@ -1,0 +1,15 @@
+@import url('members/section__header.css?20080105');
+@import url('members/section__mainContent.css?20080105');
+
+#members {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 130px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+}

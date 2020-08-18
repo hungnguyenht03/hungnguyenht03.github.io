@@ -1,0 +1,11 @@
+@import url('media_compass/section__top.css?20080107');
+@import url('media_compass/section__details.css?20080116');
+@import url('article.css?20080104');
+.header_section_detail {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}

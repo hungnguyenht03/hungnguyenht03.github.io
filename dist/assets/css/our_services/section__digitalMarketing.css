@@ -1,0 +1,61 @@
+#our_services #section__digitalMarketing {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#our_services #section__digitalMarketing .title_spacing {
+  top: 75px;
+}
+
+#our_services #section__digitalMarketing .spacing_1 {
+  padding-top: 130px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__digitalMarketing .spacing_2 {
+  padding-top: 130px;
+}
+
+#our_services #section__digitalMarketing .spacing_3 {
+  padding-top: 75px;
+  padding-bottom: 0px;
+}
+
+#our_services #section__digitalMarketing .spacing_4 {
+  padding-top: 25px;
+}
+
+#our_services #section__digitalMarketing .section_img_1 {
+  height: 580px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #our_services #section__digitalMarketing .title_spacing {
+    top: 40px;
+  }
+  #our_services #section__digitalMarketing .spacing_1 {
+    padding-top: 83px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__digitalMarketing .spacing_3 {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  #our_services #section__digitalMarketing .section_img_1 {
+    height: 290px;
+  }
+  #our_services #section__digitalMarketing .spacing_4 {
+    padding-bottom: 0px;
+  }
+  #our_services #section__digitalMarketing .spacing_2 {
+    padding-top: 40px;
+  }
+  #our_services #section__digitalMarketing .img_left {
+    padding-right: 0px !important;
+    padding-left: 20px;
+  }
+}

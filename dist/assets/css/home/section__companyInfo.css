@@ -1,0 +1,107 @@
+#home #section__companyInfo {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+#home #section__companyInfo .topics {
+  width: 100%;
+  max-width: calc(790px + 80px);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#home #section__companyInfo .topics hr {
+  width: 100%;
+  border: initial;
+  border-top: 1px solid rgba(126, 126, 126, 1);
+  margin: 15px auto;
+}
+
+#home #section__companyInfo .topics dt {
+  clear: left;
+  float: left;
+  width: 100px;
+  font-size: 16px;
+  text-align: left;
+}
+#home #section__companyInfo .topics dd {
+  margin-left: 121px;
+  text-align: left;
+  font-size: 16px;
+}
+
+#home #section__companyInfo .topics p {
+  text-align: left;
+  clear: left;
+  float: left;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+#home #section__companyInfo .text_box_1 {
+  display: inline-table;
+  font-size: 3.0em;
+  line-height: 2.0em;
+}
+#home #section__companyInfo .text_box_2 {
+  font-size: 1.4em;
+}
+
+#home #section__companyInfo .text_box_3 {
+  float: left;
+  font-size: 24px;
+  line-height: 47px;
+  height: 47px;
+  font-weight: bold;
+  color: rgba(47, 47, 47, 1);
+}
+
+#home #section__companyInfo .spacing_1 {
+  padding-top: 75px;
+}
+/* #home #section__companyInfo .spacing_2 {
+  margin-top: 30px;
+  margin-bottom: 75px;
+} */
+#home #section__companyInfo .spacing_3 {
+  padding-bottom: 60px;
+  margin-top: 75px;
+}
+#home #section__companyInfo .spacing_4 {
+  margin-top: 66px;
+}
+
+#home #section__companyInfo .border_button {
+  margin-top: 49px;
+  margin-bottom: 75px;
+  width: 190px;
+  height: 40px;
+  color: black;
+}
+
+#home #section__companyInfo .border_button:hover {
+  background-color: rgb(17, 17, 17, 0.2);
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #home #section__companyInfo .topics {
+    width: 100%;
+    max-width: calc(790px + 80px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #home #section__companyInfo .topics dt {
+    font-weight: bold;
+  }
+
+  #home #section__companyInfo .topics dt {
+    float: unset;
+  }
+  #home #section__companyInfo .topics dd {
+    margin-left: unset;
+  }
+}

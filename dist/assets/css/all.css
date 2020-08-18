@@ -1,0 +1,67 @@
+.center {
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.flat_button {
+  border-radius: 2px;
+  border-style: none;
+  background-color: rgba(224, 219, 197, 0.9);
+  cursor: pointer;
+  font-family: "Noto Sans JP";
+}
+
+/* Add a background color on hover */
+
+.flat_button:hover {
+  background-color: #a8a595;
+}
+
+.border_button {
+  border: 2px solid rgba(17, 17, 17, 1);
+  border-radius: 2px;
+  color: rgba(17, 17, 17, 1);
+  background-color: transparent;
+  font-family: "Noto Sans JP";
+  cursor: pointer;
+}
+
+.bg-yellow {
+  background-color: rgb(200, 162, 16);
+}
+
+.bg-green {
+  background-color: rgb(102, 183, 47);
+}
+
+.bg-red {
+  background-color: rgb(232, 52, 24);
+}
+
+.bg_light_blue {
+  background-color: rgba(235, 241, 255, 1);
+}
+
+.text_white {
+  color: white;
+}
+
+.text_green {
+  color: rgb(102, 183, 47);
+}
+
+.text_red {
+  color: rgb(232, 52, 24);
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="search"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}

@@ -1,0 +1,106 @@
+#our_services #section__top {
+  position: relative;
+  background-image: url("../../img/our_services/top/our_services.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+#our_services #section__top .main_content {
+  width: 100%;
+  max-width: 990px;
+  padding: 0px 40px;
+}
+
+#our_services #section__top .spacing_1 {
+  padding-top: 75px;
+}
+
+#our_services #section__top .spacing_1 h3 {
+  font-size: 3.0em;
+  line-height: 2.0em;
+  color: white;
+}
+
+#our_services #section__top .text_shadow {
+  text-shadow: 0px 0px 5px rgba(75, 75, 75, 1);
+}
+
+#our_services #section__top .spacing_1 p {
+  font-size: 1.4em;
+  color: white;
+}
+
+#our_services #section__top .spacing_2 {
+  padding: 75px 0px;
+}
+
+#our_services #section__top .spacing_2 p {
+  font-size: 1.6em;
+  color: white;
+  white-space: nowrap;
+}
+
+#our_services #section__top .spacing_2 h2 {
+  font-size: 2.8em;
+  color: white;
+}
+
+#our_services #section__top .spacing_3 {
+  margin-bottom: 75px;
+}
+
+#our_services #section__top .spacing_3 .spacing_4 {
+  padding: 40px 80px;
+}
+
+#our_services #section__top .spacing_3 .spacing_5 {
+  padding-top: 20px;
+}
+
+#our_services #section__top .spacing_3 h2 {
+  color: rgba(102, 183, 47, 1);
+  font-size: 2.8em;
+}
+
+#our_services #section__top .spacing_3 p {
+  color: rgba(17, 17, 17, 1);
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+#our_services #section__top .content_container {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  border-radius: 2px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #our_services #section__top .spacing_3 {
+    margin-bottom: 0px;
+  }
+  #our_services #section__top {
+    background-image: none;
+  }
+  #our_services #section__top .main_content .header_content {
+    background-image: url("../../img/our_services/top/our_services.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 20px;
+  }
+  #our_services #section__top .main_content {
+    width: 100%;
+    max-width: 910px;
+    padding: 0px;
+  }
+  #our_services #section__top .spacing_3 .spacing_4 {
+    padding: 40px 20px 0px;
+  }
+}

@@ -1,0 +1,21 @@
+#contact #section__thanks #section__header>p {
+    padding-top: 75px;
+    font-size: 1.6em;
+}
+
+#contact #section__thanks .submit_btn {
+    margin-top: 50px;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Noto Sans JP';
+}
+
+@media (max-width: 767px) {
+    #contact #section__top h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #contact #section__top #section__body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

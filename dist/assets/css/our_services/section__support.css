@@ -1,0 +1,185 @@
+#our_services #section__support {
+  width: 100%;
+  text-align: center;
+}
+
+#our_services #section__support #section_support_1 {
+  position: relative;
+  background-color: white;
+}
+
+#our_services #section__support .title_spacing {
+  top: 75px;
+}
+
+#our_services #section__support #section_support_1 .spacing_1 {
+  padding-top: 130px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__support #section_support_1 .spacing_2 {
+  padding-top: 130px;
+}
+
+#our_services #section__support #section_support_1 .spacing_3 {
+  padding: 40px 0px;
+}
+
+#our_services #section__support #section_support_1 .spacing_4 {
+  padding-bottom: 75px;
+}
+
+#our_services #section__support #section_support_2 {
+  position: relative;
+}
+
+#our_services #section__support #section_support_2 .spacing_1 {
+  padding: 75px 0px;
+}
+
+#our_services #section__support #section_support_3 {
+  position: relative;
+  background-color: white;
+}
+
+#our_services #section__support #section_support_3 .spacing_1 {
+  padding: 75px 0px;
+}
+
+#our_services #section__support #section_support_3 .spacing_2 {
+  padding-top: 0px;
+}
+
+#our_services #section__support #section_support_3 .spacing_3 {
+  padding-top: 40px;
+}
+
+#our_services #section__support #section_4 .spacing_1 {
+  padding-top: 0px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__support #section_4 .spacing_2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#our_services #section__support #section_4 .spacing_3 {
+  padding-top: 0px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__support #section_4 .spacing_4 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#our_services #section__support #section_5 .spacing_1 {
+  padding-top: 0px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__support #section_5 .spacing_2 {
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+#our_services #section__support #section_5 .spacing_3 {
+  padding-top: 0px;
+  padding-bottom: 75px;
+}
+
+#our_services #section__support .section_img_1 {
+  height: 580px;
+  border-radius: 2px;
+}
+
+#our_services #section__support .section_img_2 {
+  height: 580px;
+  object-position: 40% 50%;
+  border-radius: 2px;
+}
+
+#our_services #section__support .section_img_3 {
+  height: 580px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #our_services #section__support .title_spacing {
+    top: 40px;
+  }
+  #our_services #section__support #section_support_2 .col_container {
+    flex-wrap: wrap-reverse;
+  }
+  #our_services #section__support #section_support_2 {
+    background-color: white;
+  }
+  #our_services #section__support #section_support_2 .spacing_1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #our_services #section__support #section_support_2 .spacing_2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__support #section_support_3 .col_container {
+    flex-wrap: wrap-reverse;
+  }
+  #our_services #section__support #section_support_3 .spacing_1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #our_services #section__support #section_support_3 .spacing_2 {
+    padding-top: 40px;
+  }
+  #our_services #section__support #section_support_3 .spacing_3 {
+    padding: 40px 0px;
+  }
+  #our_services #section__support #section_4 .spacing_1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #our_services #section__support #section_4 .spacing_2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__support #section_4 .spacing_3 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__support #section_4 .spacing_4 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__support #section_5 .spacing_1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #our_services #section__support #section_5 .spacing_2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #our_services #section__support #section_5 .spacing_3 {
+    padding: 40px 0px;
+  }
+  #our_services #section__support .section_img_1 {
+    height: 290px;
+  }
+  #our_services #section__support .section_img_2 {
+    height: 290px;
+  }
+  #our_services #section__support .section_img_3 {
+    height: 290px;
+  }
+  #our_services #section__support #section_support_1 .spacing_2 {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  #our_services #section__support #section_support_1 .spacing_1 {
+    padding-top: 83px;
+    padding-bottom: 40px;
+  }
+}

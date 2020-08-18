@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      POLESTAR OKINAWA GATEWAY－琉球から北極星を道標に羽ばたく－
+    </title>
+    <meta
+      name="description"
+      content="国内外を拠点に活動するビジネスのエキスパート人材でつくる総合コンサルティング会社"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="POLESTAR OKINAWA GATEWAY －琉球から北極星を道標に羽ばたく－"
+    />
+    <meta
+      property="og:description"
+      content="国内外を拠点に活動するビジネスのエキスパート人材でつくる総合コンサルティング会社"
+    />
+    <meta property="og:url" content="https://pog.co.jp/" />
+    <meta property="og:site_name" content="POLESTAR OKINAWA GATEWAY" />
+    <meta property="og:image" content="https://pog.co.jp/assets/img/ogp.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="400402730918483" />
+    <meta name="twitter:image" content="https://pog.co.jp/assets/img/ogp.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="/assets/css/pog.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/flickity.css" />
+    <link rel="shortcut icon" href="https://pog.co.jp/favicon.ico" />
+    <link rel="icon" href="/assets/img/favicon.png" sizes="512x512" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon.png" />
+    <meta name="msapplication-TileImage" content="/assets/img/favicon.png" />
+  </head>
+
+  <body onscroll="updateWrapBottomNav()">
+    <!--Header-->
+    <header id="header_id">
+      <section id="section_header_id" class="menu__container">
+        <a href="/index">
+          <img
+            id="logo_header_id"
+            class="logo"
+            src="/assets/img/logo.svg"
+            alt=""
+          />
+          <nav>
+            <ul class="nav__links">
+              <li><a href="#section__aboutUs">About Us</a></li>
+              <li><a href="#section__ourServices">Services</a></li>
+              <li><a href="#section__members">Members</a></li>
+              <li><a href="/top_message">Message</a></li>
+              <li><a href="#section__companyInfo">Company</a></li>
+              <li><a href="#section__recruit">Recruit</a></li>
+            </ul>
+            <button
+              id="button_mobile_header_id"
+              onclick="openNav()"
+              class="flat_button menu_mobile_nav_button"
+            >
+              <img
+                src="/assets/img/icon_header_mobile_nav_button.svg"
+                alt="Icon Header Mobile Nav"
+              />
+              <p>MENU</p>
+            </button>
+          </nav>
+        </a>
+      </section>
+
+      <section id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="/">Top</a>
+        <div class="divider"></div>
+        <a href="#section__aboutUs" onclick="closeNav()">About Us</a>
+        <a href="#section__ourServices" onclick="closeNav()">Services</a>
+        <a href="#section__members" onclick="closeNav()">Members</a>
+        <a href="/top_message">Message</a>
+        <a href="#section__companyInfo" onclick="closeNav()">Company</a>
+        <a href="#section__recruit" onclick="closeNav()">Recruit</a>
+        <div class="divider"></div>
+        <a href="#section__compass" onclick="closeNav()"
+          ><img
+            src="/assets/img/home/top/icon/icon_media_compass_mobile.svg"
+            alt="Icon Media Compass Mobile"
+          />
+          <p>Media Compass</p>
+        </a>
+        <a href="#section__newsRelease" onclick="closeNav()"
+          ><img
+            src="/assets/img/home/top/icon/icon_news_mobile.svg"
+            alt="Icon News Mobile"
+          />
+          <p>News</p>
+        </a>
+        <a href="/contact"
+          ><img
+            src="/assets/img/home/top/icon/icon_contact_mobile.svg"
+            alt="Icon Contact Mobile"
+          />
+          <p>Contact</p>
+        </a>
+      </section>
+    </header>
+    <!--Body-->
+    <main id="home">
+      <section id="section__top">
+        <img class="top__section_logo" src="/assets/img/logo.svg" alt="" />
+
+        <div class="content_body">
+          <h3 class="text_box_1 text_box_padding_1">
+            琉球から北極星を<wbr>道標に羽ばたく
+          </h3>
+          <p class="text_box_2 text_box_padding_2">
+            アジア⇄沖縄のグローバルな連携で
+            <br />ビジネスの“最適解”を提案します
+          </p>
+
+          <p class="text_box_3 text_box_padding_3 text_weight_light">
+            株式会社POLESTAR OKINAWA GATEWAYは、
+            <br />国内外を拠点に活動する
+            <br />ビジネスのエキスパート人材でつくる
+            <br />総合コンサルティング会社です。
+            <br />
+            <br />「沖縄」を“キーパーソン”の結節点に、
+            <br />既存領域に地殻変動を。
+          </p>
+        </div>
+      </section>
+      <section id="section__newsRelease">
+        <p class="center text_box_1 spacing_1">NEWS RELEASE</p>
+        <p class="center text_box_2 spacing_2">ニュースリリース</p>
+
+        <div id="list_new_release" class="center topics spacing_3"></div>
+        <button onclick="redirectTo('new_release')" class="border_button">
+          ニュースリリース一覧
+        </button>
+      </section>
+      <section id="section__aboutUs">
+        <span class="bg-about-opacity"></span>
+        <div class="wrap-content">
+          <p class="text_box_1 spacing_1">ABOUT US</p>
+          <p class="text_box_2 spacing_2">Polestar Okinawa Gatewayについて</p>
+          <div class="card_group">
+            <div class="card_item">
+              <p class="card_item_title">ワンストップのサポート体制</p>
+              <p class="card_item_body">
+                Polestar Okinawa
+                Gatewayは、アジア展開を目指す企業のブランド開発や人材育成を支援する会社として2018年に設立しました。商品開発から店舗運営、他地域への進出など様々なビジネスの課題にワンストップで対応いたします。
+              </p>
+            </div>
+            <div class="card_item">
+              <p class="card_item_title">国内外のスペシャリストメンバーが集結</p>
+              <p class="card_item_body">
+                国内外を拠点に各分野のスペシャリストとして活躍するメンバーが、お客様の求めるミッションに応じて専門性を集結させ、それぞれのもつ経験と知恵、人脈の「資産」を織り交ぜながらオリジナルのサポート体制で支援いたします。
+              </p>
+            </div>
+            <div class="card_item">
+              <p class="card_item_title">「沖縄」を活かすことが付加価値に</p>
+              <p class="card_item_body">
+                日本本土とアジアの中心に位置する「沖縄」は観光客を含めた市場としての魅力、テストマーケディングや製造拠点としての可能性を秘めた「ビジネスの要石」ともいえる地です。沖縄にアイデンティティーを持つ当社が、グローバルな展開を目指す企業様の道標となるべく、先進的で実践的なソリューションを提案します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section__ourServices">
+        <p class="text_box_1 spacing_1">OUR SERVICES</p>
+        <p class="text_box_2 spacing_2">事業概要</p>
+        <div class="main_content">
+          <div class="card_group center spacing_3 spacing_4">
+            <div
+              onclick="location.href='/our_services#section__support'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_1.jpg"
+                alt="our_services_1"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">沖縄/日本/アジア進出サポート</p>
+                <p class="card_item_body">
+                  市場調査から商品開発、店舗運営のサポートやPR、現地法人設立
+                  <br />人材採用などをお手伝いします。
+                </p>
+                <a href="/our_services#section__support"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+            <div
+              onclick="location.href='/our_services#section__itsolution'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_2.jpg"
+                alt="our_services_2"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">ITソリューションの導入</p>
+                <p class="card_item_body">
+                  システム開発や決済・顔認証システムの導入支援などテクノロジーの活用をサポートします。
+                </p>
+                <a href="/our_services#section__itsolution"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+            <div
+              onclick="location.href='/our_services#section__mediaBussiness'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_3.jpg"
+                alt="our_services_3"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">広報戦略支援・メディア事業</p>
+                <p class="card_item_body">
+                  企業の商品や活動内容を正しく社会に認識いただくために、情報発信のお手伝いをいたします。
+                </p>
+                <a href="/our_services#section__mediaBussiness"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+            <div
+              onclick="location.href='/our_services#section__digitalMarketing'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_4.jpg"
+                alt="our_services_1"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">デジタルマーケティング支援</p>
+                <p class="card_item_body">
+                  SNSを活用した商品・店舗のPRや、ホームページ・ランディングページの制作、EC事業の立ち上げ・運用を支援します。
+                </p>
+                <a href="/our_services#section__digitalMarketing"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+            <div
+              onclick="location.href='/our_services#section__consult'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_5.jpg"
+                alt="our_services_2"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">海外人材採用支援</p>
+                <p class="card_item_body">
+                  海外人材の採用や受け入れに関する手続きのほか、海外の現地法人の設立、研修センターの設立支援などをお手伝いします。
+                </p>
+                <a href="/our_services#section__consult"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+            <div
+              onclick="location.href='/our_services#section__quality'"
+              class="card_item"
+            >
+              <img
+                src="/assets/img/home/our_services/our_services_6.jpg"
+                alt="our_services_3"
+              />
+              <div class="sub_card">
+                <p class="card_item_title">品質・衛生管理</p>
+                <p class="card_item_body">
+                  食品衛生に関わる各種検査や、品質管理コンサルティングなど、工場・店舗の品質・衛生管理をサポートします。
+                </p>
+                <a href="/our_services#section__quality"
+                  ><button class="border_button">詳しく読む</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section__members">
+        <p class="text_box_1 spacing_1">MEMBERS</p>
+        <p class="text_box_2 spacing_2">メンバー紹介</p>
+        <div
+          class="carousel center"
+          data-flickity="{ &quot;groupCells&quot;: true, &quot;prevNextButtons&quot;: false }"
+        >
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_01.jpg" alt="" />
+            <p>金井猛・取締役会長</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_02.jpg" alt="" />
+            <p>笠木多聞・代表取締役社長</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_03.jpg" alt="" />
+            <p>辻内岳晴・取締役</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_04.jpg" alt="" />
+            <p>座安あきの・取締役</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_05.jpg" alt="" />
+            <p>水野満・監査役</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_06.jpg" alt="" />
+            <p>絹川恭久・特別政策顧問（法務担当）</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_07.jpg" alt="" />
+            <p>南蔵人・特別政策顧問</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_08.jpg" alt="" />
+            <p>和田徹・特別顧問</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_09.jpg" alt="" />
+            <p>菊川昌彦・特別顧問</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_10.jpg" alt="" />
+            <p>グエン トゥイ アン・Coordinator</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_11.jpg" alt="" />
+            <p>與那覇仁・顧問</p>
+          </div>
+          <div class="carousel-cell">
+            <img src="/assets/img/home/members/member_13.jpg" alt="" />
+            <p>平良 尚也・顧問</p>
+          </div>
+          <div class="carousel-cell special_cell">
+            <div style="width: 200px;">
+              <img src="/assets/img/home/members/member_12.jpg" alt="" />
+              <p>赤嶺佐和子・広報戦略支援室アシスタント</p>
+            </div>
+          </div>
+        </div>
+        <a class="button_members" href="/members"
+          >メンバーについて詳しく見る →</a
+        >
+      </section>
+      <section id="section__compass">
+        <img
+          class="img_compass_title spacing_1"
+          src="/assets/img/home/compass/img_compat_title.svg"
+          alt="Compat Title"
+        />
+        <div class="spacing_2">
+          <p class="text_box_1">Think Global, Do Global</p>
+          <p class="text_box_2">
+            世界をみる、沖縄を語る、ビジネスがわかる、誰もが主役になれる
+          </p>
+        </div>
+        <div class="main_content">
+          <div
+            id="list_media_compass"
+            class="card_group center spacing_3 spacing_4"
+          ></div>
+        </div>
+        <button onclick="redirectTo('media_compass')" class="border_button">
+          一 覧
+        </button>
+      </section>
+      <section id="section__companyInfo">
+        <p class="text_box_1 spacing_1">COMPANY INFORMATION</p>
+        <p class="text_box_2 spacing_2">会社概要</p>
+
+        <div class="center topics spacing_3">
+          <dl>
+            <dt>会社名</dt>
+            <dd>株式会社Polestar Okinawa Gateway</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>設立日</dt>
+            <dd>2018年4月</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>役員</dt>
+            <dd>
+              取締役会長　金井 孟
+              <br />代表取締役社長　笠木 多聞 <br />取締役　辻内 岳晴
+              <br />取締役　座安 あきの <br />特別政策顧問　絹川
+              恭久（法務担当） <br />特別政策顧問　南 蔵人（テクノロジー担当）
+              <br />特別顧問　和田 徹 （人事戦略担当） <br />特別顧問　菊川
+              昌彦（ベトナム市場担当） <br />顧問　與那覇 仁 <br />顧問　平良
+              尚也 <br />コーディネーター　NGUYEN THUY AN
+            </dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>資本金</dt>
+            <dd>10,000,000円</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>所在地</dt>
+            <dd>〒900-0015　沖縄県那覇市久茂地1丁目1−1　パレットくもじ 9階</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>TEL</dt>
+            <dd>098-987-1828</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>FAX</dt>
+            <dd>098-894-3678</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>事業内容</dt>
+            <dd>
+              ・沖縄/日本/アジア進出サポート
+              <br />・ITソリューションの導入 <br />・広報戦略支援・メディア事業
+              <br />・デジタルマーケティング支援 <br />・海外人材採用支援
+              <br />・品質・衛生管理
+            </dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>姉妹会社</dt>
+            <dd>
+              ZERO OCEAN Hong Kong
+              <br />Myanmar POLESTAR <br />AYAS
+            </dd>
+          </dl>
+          <hr />
+          <p class="text_box_3 spacing_4">関連会社</p>
+          <hr />
+          <dl>
+            <dt>会社名</dt>
+            <dd>株式会社Polestar Okinawa Real Management</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>設立日</dt>
+            <dd>2019年5月</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>役員</dt>
+            <dd>
+              取締役会長　宗像 二郎
+              <br />代表取締役社長　辻内 岳晴 <br />取締役　與那覇 仁
+              <br />取締役　南 蔵人
+              <br />特別政策顧問　大瀬良亮（広告・宣伝担当） <br />顧問　宮平 智
+              <br />名誉顧問　大城 勇
+            </dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>資本金</dt>
+            <dd>9,900,000円</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>所在地</dt>
+            <dd>〒900-0015　沖縄県那覇市久茂地1丁目1−1　パレットくもじ 9階</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>TEL</dt>
+            <dd>098-987-1828</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>FAX</dt>
+            <dd>098-894-3678</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt>事業内容</dt>
+            <dd>
+              ・ジェントリフィケーションなど社会的課題の解決をあらゆるシェアで考える会社
+            </dd>
+          </dl>
+          <hr />
+          <p>全国宅地建物保証協会会員　沖縄県知事(1)第5054号</p>
+          <hr />
+        </div>
+      </section>
+      <section id="section__recruit">
+        <h3 class="text_box_1 spacing_1">RECRUIT</h3>
+        <p class="text_box_2 spacing_2">リクルート</p>
+        <p class="text_box_3 spacing_3">
+          「プロ副業」 <br />沖縄ではじめるプロのためのセカンドステージ
+        </p>
+        <p class="center text_box_4 spacing_4">
+          プロ副業とは・・・
+          <br />自分自身が主となるビジネスを持ちながら、沖縄を通してそのビジネスを発展させたい、沖縄で新たな取り組みをしたいプロフェッショナル人材のための新たな働き方です。
+          <br />
+          <br />Polestar Okinawa Gatewayでは、
+          <br />沖縄で副業をはじめたい国内外のエキスパート人材を募集しております。
+          <br />特に人材育成に興味をお持ちのエキスパートの方や海外高度人材を積極的に募集いたします。
+          <br />すでに数名のプロフェッショナルが自分の仕事やライフスタイルに合わせて、
+          <br />人材採用、人材活用のプロフェッショナル和田の監修のもと、
+          <br />沖縄でプロ副業をはじめています。
+          <br />
+          <br />時間やオフィスに縛られない自由な環境で
+          <br />あなたの能力を生かしたプロな仕事を一緒にはじめませんか？
+          <br />また、当社所属のエキスパート人材へのお仕事の依頼も募集しております。
+        </p>
+        <a href="/contact">
+          <button class="flat_button contact_btn spacing_5">
+            <p>CONTACT</p>
+          </button>
+        </a>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <section class="bottom_nav">
+        <div class="btn_group" id="bottom_nav">
+          <button
+            onclick="scrollToTop()"
+            class="floating_btn"
+            id="floating_btn"
+          >
+            <img
+              style="width: 70%;"
+              src="/assets/img/icon-muiten.svg"
+              alt="Scroll To Top"
+            />
+          </button>
+          <div class="main_bottom_nav">
+            <button
+              onclick="redirectTo('#section__compass')"
+              class="flat_button top__section_button"
+            >
+              <img
+                class="btnimg spec_icon"
+                src="/assets/img/home/top/icon/icon_media_compass.svg"
+                alt="Icon Media Compass"
+              />
+              <p>Media Compass</p>
+            </button>
+            <button
+              onclick="redirectTo('#section__newsRelease')"
+              class="flat_button top__section_button middle_button"
+            >
+              <img
+                class="btnimg spec_icon"
+                src="/assets/img/home/top/icon/icon_news.svg"
+                alt="Icon News"
+              />
+              <p>News</p>
+            </button>
+            <button
+              onclick="redirectTo('contact')"
+              class="flat_button top__section_button"
+            >
+              <img
+                class="btnimg spec_icon_2"
+                src="/assets/img/home/top/icon/icon_contact.svg"
+                alt="Icon Contact"
+              />
+              <p>Contact</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__footer">
+        <section class="center menu__container">
+          <p class="left">©︎ 2020 Polestar Okinawa Gateway</p>
+          <div class="right">
+            <a href="/privacy_policy">
+              <a href="/privacy_policy">
+                <p>PRIVACY POLICY</p>
+              </a>
+            </a>
+            <a
+              href="https://www.facebook.com/polestarokinawagateway"
+              target="_blank"
+            >
+              <img src="/assets/img/footer_facebook_logo.svg" alt="Facebook" />
+            </a>
+          </div>
+        </section>
+      </section>
+    </footer>
+
+    <script src="/assets/jquery/jquery.min.js"></script>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/flickity.pkgd.js"></script>
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/api_helper.js"></script>
+    <script src="/assets/js/new_release_micro_cms.js"></script>
+    <script src="/assets/js/media_compass_micro_cms.js"></script>
+  </body>
+</html>

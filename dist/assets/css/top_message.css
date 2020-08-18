@@ -1,0 +1,94 @@
+#top_message {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: calc(750px + 80px);
+  padding-top: 130px;
+}
+
+#top_message #section__header {
+  padding: 0px 40px;
+}
+
+#top_message #section__header h3 {
+  font-size: 3.0em;
+  line-height: 2.0em;
+}
+
+#top_message #section__header p {
+  font-size: 1.4em;
+}
+
+#top_message #section_mainContent {
+  padding-top: 75px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 75px;
+}
+
+#top_message #section_mainContent .left_container {
+  width: 70%;
+  margin-right: 18px;
+}
+
+#top_message #section_mainContent img {
+  width: 100%;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+#top_message #section_mainContent .left_container .content_body p {
+  text-align: left;
+  font-size: 1.6em;
+}
+
+#top_message #section_mainContent .left_container .content_bottom {
+  padding-top: 75px;
+}
+
+#top_message #section_mainContent .left_container .content_bottom p {
+  text-align: right;
+  font-size: 1.6em;
+}
+
+#top_message #section_mainContent .left_container .content_bottom .sign {
+  padding-top: 10px;
+  font-size: 2.4em;
+}
+
+#top_message #section_mainContent .right_container {
+  width: 30%;
+}
+
+@media (max-width: 1024px) {
+  #top_message {
+    padding-top: 130px;
+  }
+
+  #top_message #section_mainContent {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  #top_message #section_mainContent .left_container {
+    width: 100%;
+    margin: auto 20px;
+  }
+  #top_message #section_mainContent .right_container {
+    width: 100%;
+    max-width: 219px;
+    margin: 0;
+    margin-left: 18px;
+  }
+  #top_message #section__header {
+    padding: 0 20px;
+  }
+  #top_message #section_mainContent .left_container .content_bottom p {
+    text-align: left;
+  }
+  #top_message #section_mainContent .left_container .content_bottom .sign {
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+}

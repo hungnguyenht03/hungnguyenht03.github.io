@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      POLESTAR OKINAWA GATEWAY－琉球から北極星を道標に羽ばたく－
+    </title>
+    <meta
+      name="description"
+      content="国内外を拠点に活動するビジネスのエキスパート人材でつくる総合コンサルティング会社"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="POLESTAR OKINAWA GATEWAY －琉球から北極星を道標に羽ばたく－"
+    />
+    <meta
+      property="og:description"
+      content="国内外を拠点に活動するビジネスのエキスパート人材でつくる総合コンサルティング会社"
+    />
+    <meta property="og:url" content="https://pog.co.jp/" />
+    <meta property="og:site_name" content="POLESTAR OKINAWA GATEWAY" />
+    <meta property="og:image" content="https://pog.co.jp/assets/img/ogp.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="400402730918483" />
+    <meta name="twitter:image" content="https://pog.co.jp/assets/img/ogp.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="/assets/css/pog.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
+    <link rel="shortcut icon" href="https://pog.co.jp/favicon.ico" />
+    <link rel="icon" href="/assets/img/favicon.png" sizes="512x512" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon.png" />
+    <meta name="msapplication-TileImage" content="/assets/img/favicon.png" />
+  </head>
+
+  <body onscroll="updateWrapBottomNav()">
+    <!--Header-->
+    <header id="header_id">
+      <section id="section_header_id" class="menu__container">
+        <a href="/index">
+          <img
+            id="logo_header_id"
+            class="logo"
+            src="/assets/img/logo.svg"
+            alt=""
+          />
+          <nav>
+            <ul class="nav__links">
+              <li><a href="/index#section__aboutUs">About Us</a></li>
+              <li><a href="/index#section__ourServices">Services</a></li>
+              <li><a href="/index#section__members">Members</a></li>
+              <li><a href="/top_message">Message</a></li>
+              <li><a href="/index#section__companyInfo">Company</a></li>
+              <li><a href="/index#section__recruit">Recruit</a></li>
+            </ul>
+            <button
+              id="button_mobile_header_id"
+              onclick="openNav()"
+              class="flat_button menu_mobile_nav_button"
+            >
+              <img
+                src="/assets/img/icon_header_mobile_nav_button.svg"
+                alt="Icon Header Mobile Nav"
+              />
+              <p>MENU</p>
+            </button>
+          </nav>
+        </a>
+      </section>
+
+      <section id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="/index">Top</a>
+        <div class="divider"></div>
+        <a href="/index#section__aboutUs" onclick="closeNav()">About Us</a>
+        <a href="/index#section__ourServices" onclick="closeNav()">Services</a>
+        <a href="/index#section__members" onclick="closeNav()">Members</a>
+        <a href="/top_message">Message</a>
+        <a href="/index#section__companyInfo" onclick="closeNav()">Company</a>
+        <a href="/index#section__recruit" onclick="closeNav()">Recruit</a>
+        <div class="divider"></div>
+        <a href="/index#section__compass" onclick="closeNav()"
+          ><img
+            src="/assets/img/home/top/icon/icon_media_compass_mobile.svg"
+            alt="Icon Media Compass Mobile"
+          />
+          <p>Media Compass</p>
+        </a>
+        <a href="/index#section__newsRelease" onclick="closeNav()"
+          ><img
+            src="/assets/img/home/top/icon/icon_news_mobile.svg"
+            alt="Icon News Mobile"
+          />
+          <p>News</p>
+        </a>
+        <a href="/contact"
+          ><img
+            src="/assets/img/home/top/icon/icon_contact_mobile.svg"
+            alt="Icon Contact Mobile"
+          />
+          <p>Contact</p>
+        </a>
+      </section>
+    </header>
+    <!--Body-->
+    <main id="contact">
+      <section id="section__top">
+        <section id="section__header">
+          <h3>CONTACT</h3>
+          <p>お問い合わせ</p>
+        </section>
+        <h2>以下の内容をご記入いただき、送信ボタンをクリックしてください。</h2>
+        <section id="section__body">
+          <form
+            name="contact"
+            action="/contact_thanks"
+            method="POST"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+            netlify-honeypot="bot-field"
+          >
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </p>
+            <ul>
+              <li class="form_container">
+                <label for="form_name" class="label_form">お名前<span class="text_red">（必須）</span></label>
+                <input name="お名前" id="form_name" class="input_form" type="text" required />
+              </li>
+              <li class="form_container">
+                <label for="form_company" class="label_form">会社名</label>
+                <input name="会社名" id="form_company" class="input_form" type="text">
+              </li>
+              <li class="form_container">
+                <label for="email" class="label_form">メールアドレス<span class="text_red">（必須）</span></label>
+                <input class="input_form" type="email" id="email" name="メールアドレス" required>
+              </li>
+              <li class="form_container">
+                <label for="emailConfirm" class="label_form">メールアドレス<span class="text_red">（確認用）</span></label>
+                <input class="input_form" type="email" id="emailConfirm" name="メールアドレス" oninput="CheckMail(this)" required>
+              </li>
+              <h2>
+                ※キャリアメール（au,docomoなど）以外でお願いします。キャリアメールですと、うまく返信ができない場合がございます。
+                　何かしらの理由でメールが返信できない場合は、お電話させていただきますので、予めご了承ください。
+              </h2>
+              <li class="form_container">
+                <label for="form_tel" class="label_form">電話番号</label>
+                <input name="電話番号" id="form_tel" class="input_form" type="text">
+              </li>
+              <li class="form_container">
+                <label for="form_title" class="label_form">件名<span class="text_red">（必須）</span></label>
+                <input name="件名" id="form_title" class="input_form" type="text" required>
+              </li>
+              <li class="form_container">
+                <label for="form_content" class="label_form">お問い合わせ内容<span class="text_red">（必須）</span></label>
+                <textarea name="お問い合わせ内容" id="form_content" cols="30" rows="10" class="input_form text_area_form" required></textarea>
+              </li>
+            </ul>
+
+            <div class="re_captcha">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+
+            <div class="form_bottom">
+              <p>
+                <input type="submit" class="submit_btn text_white" value="送 信">
+              </p>
+            </div>
+          </form>
+          <div class="temp_bottom_spacing"></div>
+        </section>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <section class="bottom_nav">
+        <div class="btn_group" id="bottom_nav">
+          <button
+            onclick="scrollToTop()"
+            class="floating_btn"
+            id="floating_btn"
+          >
+            <img
+              width="40px"
+              height="40px"
+              src="/assets/img/icon-muiten.svg"
+              alt="Scroll To Top"
+            />
+          </button>
+          <div class="main_bottom_nav">
+            <button
+              onclick="redirectTo('#section__compass')"
+              class="flat_button top__section_button"
+            >
+              <img
+                class="btnimg spec_icon"
+                src="/assets/img/home/top/icon/icon_media_compass.svg"
+                alt="Icon Media Compass"
+              />
+              <p>Media Compass</p>
+            </button>
+            <button
+              onclick="redirectTo('#section__newsRelease')"
+              class="flat_button top__section_button middle_button"
+            >
+              <img
+                class="btnimg spec_icon"
+                src="/assets/img/home/top/icon/icon_news.svg"
+                alt="Icon News"
+              />
+              <p>News</p>
+            </button>
+            <button
+              onclick="redirectTo('contact')"
+              class="flat_button top__section_button"
+            >
+              <img
+                class="btnimg spec_icon_2"
+                src="/assets/img/home/top/icon/icon_contact.svg"
+                alt="Icon Contact"
+              />
+              <p>Contact</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__footer">
+        <section class="center menu__container">
+          <p class="left">©︎ 2020 Polestar Okinawa Gateway</p>
+          <div class="right">
+            <a href="/privacy_policy">
+              <a href="/privacy_policy">
+                <p>PRIVACY POLICY</p>
+              </a>
+            </a>
+            <a
+              href="https://www.facebook.com/polestarokinawagateway"
+              target="_blank"
+            >
+              <img src="/assets/img/footer_facebook_logo.svg" alt="Facebook" />
+            </a>
+          </div>
+        </section>
+      </section>
+    </footer>
+
+    <script src="/assets/jquery/jquery.min.js"></script>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/flickity.pkgd.js"></script>
+    <script src="/assets/js/contact.js"></script>
+  </body>
+</html>

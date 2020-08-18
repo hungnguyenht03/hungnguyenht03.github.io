@@ -1,0 +1,121 @@
+#home #section__members {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(238, 238, 238, 1);
+  padding: 0px 0px;
+  padding-bottom: 100px;
+}
+
+#home #section__members .gallery {
+  background-color: #eee;
+}
+
+#home #section__members .carousel {
+  width: 100%;
+  max-width: 1040px;
+  padding-bottom: 20px;
+  margin-top: 75px;
+}
+
+#home #section__members .carousel .carousel-cell {
+  width: 100%;
+  max-width: calc((1040px / 4) - 60px);
+  margin-right: 30px;
+  margin-left: 30px;
+  counter-increment: carousel-cell;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#home #section__members .carousel .special_cell {
+  max-width: calc((1040px) - 60px);
+}
+
+#home #section__members .carousel .carousel-cell img {
+  margin: auto;
+  width: 200px;
+  height: 280px;
+  background: #8c8;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+#home #section__members .carousel .carousel-cell p {
+  margin: auto;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#home #section__members .button_members {
+  font-size: 1.4em;
+  color: rgba(17, 17, 17, 1);
+  position: absolute;
+  bottom: 75px;
+  right: 0px;
+  padding-right: 40px;
+}
+
+.flickity-page-dots .dot {
+  margin-top: 10px !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: rgba(150, 150, 150, 1) !important;
+}
+
+.flickity-prev-next-button {
+  display: none;
+}
+
+#home #section__members .text_box_1 {
+  display: inline-table;
+  font-size: 3.0em;
+  line-height: 2.0em;
+}
+
+#home #section__members .text_box_2 {
+  font-size: 1.4em;
+}
+
+#home #section__members .spacing_1 {
+  padding-top: 75px;
+}
+
+/* #home #section__members .spacing_2 {
+  margin-top: 30px;
+  margin-bottom: 75px;
+} */
+
+@media (max-width: 1024px) {
+  #home #section__members .carousel {
+    max-width: calc(260px * 3);
+  }
+  #home #section__members .carousel .special_cell div {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #home #section__members .carousel {
+    max-width: calc(260px * 2);
+  }
+  #home #section__members .button_members {
+    bottom: 38px;
+    right: 0;
+    left: 0;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  #home #section__members .carousel {
+    max-width: 260px;
+  }
+}

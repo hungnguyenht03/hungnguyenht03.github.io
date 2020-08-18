@@ -1,0 +1,14 @@
+#members #section__header {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+#members #section__header h3 {
+    font-size: 3.0em;
+    line-height: 2.0em;
+}
+
+#members #section__header p {
+    font-size: 1.4em;
+}

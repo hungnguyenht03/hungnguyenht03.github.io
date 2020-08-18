@@ -1,0 +1,148 @@
+header {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 130px;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+}
+
+header .menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  height: 130px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+header .logo {
+  cursor: pointer;
+  height: 100px;
+  width: 84px;
+  margin-left: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+header .nav__links {
+  list-style: none;
+}
+
+header .nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+header .nav__links li a {
+  font-size: 16px;
+  transition: all 0.3s ease 0s;
+  color: #111111;
+}
+
+header .nav__links li a:hover {
+  color: #0088a9;
+}
+
+header button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+header .menu__container .menu_mobile_nav_button {
+  display: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+}
+
+header .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  background-color: rgba(17, 17, 17, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header .sidenav a {
+  padding: 15px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #ffffff;
+  width: 50%;
+  margin: auto;
+}
+
+header .sidenav a img {
+  margin-bottom: -5px;
+}
+
+header .sidenav a p {
+  display: inline-block;
+  justify-content: center;
+  display: inline-block;
+}
+
+header .sidenav .divider {
+  border-top: 2px solid #bbb;
+  margin: 20px;
+}
+
+header .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+header .sidenav .closebtn {
+  position: absolute;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 14px;
+  width: 40px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  header .nav__links {
+    display: none;
+  }
+  header .menu__container .menu_mobile_nav_button {
+    display: block;
+    width: 60px;
+    height: 65px;
+    margin-right: 20px;
+  }
+  header .menu__container .menu_mobile_nav_button p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #7e7e7e;
+    padding: 0;
+    margin: 0;
+  }
+  header .menu__container .menu_mobile_nav_button img {
+    padding-top: 10px;
+  }
+  .temp_bottom_spacing {
+    display: none;
+    height: 90px;
+  }
+  header .sidenav {
+    background-color: rgba(17, 17, 17, 0.8);
+  }
+}

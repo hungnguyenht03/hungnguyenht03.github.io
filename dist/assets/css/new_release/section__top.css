@@ -1,0 +1,95 @@
+#new_release #section__top {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding-top: 130px;
+}
+
+#new_release #section__top .topics {
+  width: 100%;
+  max-width: calc(790px + 80px);
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 75px;
+}
+
+#new_release #section__top .topics dl {
+  padding-bottom: 30px;
+}
+
+#new_release #section__top .topics dt {
+  clear: left;
+  float: left;
+  width: 100px;
+  color: rgba(17, 17, 17, 0.87);
+  text-align: left;
+}
+
+#new_release #section__top .topics dd {
+  margin-left: 120px;
+  text-align: left;
+}
+
+#new_release #section__top .text_box_1 {
+  display: inline-table;
+  font-size: 3.0rem;
+  line-height: 2.0em;
+}
+
+#new_release #section__top .text_box_2 {
+  font-size: 1.4rem;
+}
+
+/* #new_release #section__top .spacing_2 {
+} */
+
+#new_release #section__top .border_button {
+  margin-top: 49px;
+  margin-bottom: 75px;
+  width: 190px;
+  height: 40px;
+  color: black;
+}
+
+#new_release #section__top .border_button:hover {
+  background-color: rgb(17, 17, 17, 0.2);
+}
+
+#new_release #section__top .flat_button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-top: 45px;
+  margin-bottom: 200px;
+}
+
+#new_release #section__top .flat_button:hover {
+  background-color: rgb(17, 17, 17, 0.2);
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #new_release #section__top .topics {
+    width: 100%;
+    max-width: calc(790px + 80px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #new_release #section__top .topics dt {
+    font-weight: bold;
+  }
+  #new_release #section__top .topics dt {
+    float: unset;
+  }
+  #new_release #section__top .topics dd {
+    margin-left: unset;
+  }
+  #new_release #section__top .flat_button {
+    margin-top: 30px;
+    margin-bottom: 120px;
+  }
+}

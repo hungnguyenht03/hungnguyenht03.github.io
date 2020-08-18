@@ -1,0 +1,121 @@
+#home #section__recruit {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(65, 114, 252, 0.1);
+  padding: 0px 40px;
+}
+
+#home #section__recruit .text_box_1 {
+  display: inline-table;
+  font-size: 3.0em;
+  line-height: 2.0em;
+}
+
+#home #section__recruit .text_box_2 {
+  font-size: 1.4em;
+}
+
+#home #section__recruit .text_box_3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(102, 183, 47, 1);
+}
+
+#home #section__recruit .text_box_4 {
+  font-size: 16px;
+  width: 100%;
+  max-width: 750px;
+  color: rgba(17, 17, 17, 1);
+}
+
+#home #section__recruit .spacing_1 {
+  padding-top: 75px;
+}
+
+/* #home #section__recruit .spacing_2 {
+  margin-top: 30px;
+  margin-bottom: 75px;
+} */
+
+#home #section__recruit .spacing_3 {
+  margin-top: 75px;
+  padding-bottom: 25px;
+}
+
+#home #section__recruit .spacing_4 {
+  padding-top: 25px;
+}
+
+#home #section__recruit .spacing_5 {
+  margin-top: 75px;
+  margin-bottom: 200px;
+}
+
+#home #section__recruit .spacing_6 {
+  margin-bottom: 10px;
+}
+
+#home #section__recruit .contact_btn {
+  width: 140px;
+  height: 50px;
+  background-color: rgba(102, 183, 47, 1);
+  color: white;
+  font-size: 16px;
+}
+
+#home #section__recruit .btn_group {
+  width: 100%;
+  max-width: 790px;
+  margin: auto;
+  padding: 0 40px;
+  left: 0;
+  right: 0;
+}
+
+#home #section__recruit .btn_group .top__section_button {
+  width: calc((99% - 30px) / 3);
+  height: 60px;
+  margin: 0;
+}
+
+#home #section__recruit .btn_group .middle_button {
+  margin: 0px 15px;
+}
+
+#home #section__recruit .top__section_button img {
+  padding-right: 18px;
+  margin-bottom: -8px;
+}
+
+#home #section__recruit .top__section_button img {
+  padding-right: 18px;
+  margin-bottom: -8px;
+}
+
+#home #section__recruit .top__section_button p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7e7e7e;
+  justify-content: center;
+  display: inline-block;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  #home #section__recruit {
+    padding: 0px 20px;
+  }
+  #home #section__recruit .spacing_3 {
+    padding-bottom: 50px;
+  }
+  #home #section__recruit .spacing_5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #home #section__recruit .text_box_4 {
+    text-align: left;
+  }
+}

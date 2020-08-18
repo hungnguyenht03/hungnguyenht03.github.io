@@ -1,0 +1,154 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding-bottom: 78px;
+}
+
+footer .main__footer {
+  background-color: rgba(238, 238, 238, 1);
+  height: 78px;
+}
+
+footer .menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  height: 78px;
+}
+
+footer .menu__container p {
+  font-size: 12px;
+}
+
+footer .menu__container .left {
+  padding-left: 40px;
+  float: left;
+}
+
+footer .menu__container .right {
+  float: right;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+footer .menu__container .right p {
+  padding-right: 40px;
+}
+
+.temp_bottom_spacing {
+  height: 90px;
+}
+
+footer .bottom_nav .btn_group {
+  left: 0;
+  right: 0;
+  position: fixed;
+  bottom: 90px;
+  height: 60px;
+  z-index: 9;
+}
+
+footer .bottom_nav .btn_group .main_bottom_nav {
+  width: 100%;
+  max-width: calc(750px + 15px + 80px);
+  margin: auto;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer .bottom_nav .btn_group .main_bottom_nav .top__section_button {
+  flex-basis: 100%;
+  height: 60px;
+  margin: 0px 7.5px;
+}
+
+footer .bottom_nav .btn_group .main_bottom_nav .top__section_button img {
+  padding-right: 18px;
+}
+
+.spec_icon {
+  margin-bottom: -8px;
+}
+
+.spec_icon_2 {
+  margin-bottom: -4px;
+}
+
+footer .bottom_nav .btn_group .main_bottom_nav .top__section_button p {
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-weight: bold;
+  color: #7e7e7e;
+  justify-content: center;
+  display: inline-block;
+}
+
+footer .floating_btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  right: 20px;
+  border-radius: 50%;
+  border: none;
+  opacity: 75%;
+  cursor: pointer;
+}
+
+footer #floating_btn {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out !important;
+  -moz-transition: opacity 0.25s ease-in-out !important;
+  -webkit-transition: opacity 0.25s ease-in-out !important;
+}
+
+footer #floating_btn > img {
+  opacity: 0.5;
+}
+
+@media (max-width: 1080px) {
+  footer .bottom_nav .btn_group .main_bottom_nav {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer .bottom_nav .btn_group {
+    width: 0px;
+  }
+
+  footer .menu__container .right p {
+    padding-right: 0px;
+  }
+
+  footer .menu__container .right img {
+    display: none;
+  }
+
+  footer .menu__container .left {
+    padding-left: 20px;
+  }
+
+  footer .menu__container .right {
+    float: right;
+    padding-right: 20px;
+  }
+
+  footer .bottom_nav .btn_group .main_bottom_nav {
+    display: none;
+  }
+
+  footer .floating_btn {
+    width: 40px;
+    height: 40px;
+  }
+}

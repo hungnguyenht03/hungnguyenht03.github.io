@@ -1,0 +1,92 @@
+#members #section__mainContent {
+    width: 100%;
+    max-width: calc(1080px + 80px);
+    margin: auto;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#members #section__mainContent .member_cell {
+    width: 100%;
+    max-width: calc(100% / 2);
+    display: flex;
+    padding-bottom: 75px;
+}
+
+#members #section__mainContent .avatar {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+#members #section__mainContent .spacing_1 {
+    padding: 0px 25px;
+}
+
+#members #section__mainContent .text_introduce {
+    font-size: 16px;
+    text-align: left;
+}
+
+#members #section__mainContent .text_name_jp {
+    font-size: 24px;
+    line-height: 1.0em;
+    text-align: left;
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+    padding-top: 14px;
+    margin-right: -15px;
+}
+
+#members #section__mainContent .text_name_normal {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(17, 17, 17);
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+
+#members #section__mainContent .text_role {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(126, 126, 126);
+    padding-bottom: 10px;
+}
+
+#members #section__mainContent .link {
+    color: rgb(102, 183, 47);
+    float: left;
+}
+
+@media (max-width: 1024px) {
+    #members #section__mainContent .member_cell {
+        width: 100%;
+        max-width: unset;
+        display: unset;
+        min-height: unset;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+    #members #section__mainContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #members #section__mainContent .spacing_1 {
+        padding: 0px 0px;
+    }
+    #members #section__mainContent .special_container {
+        display: flex;
+    }
+    #members #section__mainContent .special_container>p {
+        width: 50%;
+    }
+    #members #section__mainContent .special_container>a {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {}
